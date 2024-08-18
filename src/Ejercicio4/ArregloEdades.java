@@ -38,6 +38,7 @@ public class ArregloEdades {
         }
         return -1;
     }
+
     public int incrementarEdadAdulta (){
         for (int i = 0; i <indice ; i++) {
             if(edad[i]>18){
@@ -47,8 +48,6 @@ public class ArregloEdades {
         }
         return -1;
     }
-
-
 
     public void imprimirArray(){
         for (int i = 0; i <size() ; i++) {
